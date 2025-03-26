@@ -36,7 +36,7 @@ pip install -e .
 
 3. Run tests:
 ```bash
-pytest
+pytest -v
 ```
 
 ## License
