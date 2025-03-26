@@ -38,6 +38,15 @@ pip install -e .
 ```bash
 pytest -v
 ```
+## Adding a new release
+
+```bash
+git tag v<release_number>.x.x
+```
+```bash
+git push origin v<release_number>.x.x
+```
+
 
 ## License
 
